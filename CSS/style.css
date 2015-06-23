@@ -92,12 +92,14 @@ article {
      display: inline-block;
 }
 
-article p::first-letter {
+article p span {
      font-size: 80px;
      color: #DDD;
      float: left;
      padding-left: 1%;
      padding-right: 1%;
+     width: 100px;
+     height: 100px;
 }
 
 h4 {
